@@ -28,7 +28,12 @@ function App() {
             />
           </div>
 
-          <p className="eyebrow">PERSONAL JOURNEY</p>
+          <a
+            href="mailto:contact@felixcochet.com"
+            className="eyebrow email-link"
+          >
+              ✉ contact@felixcochet.com
+          </a>
 
           <h1>
             Trying to become <span>1% better</span> every day.
@@ -37,6 +42,8 @@ function App() {
           <p className="subtitle">
             Sharing what I learn along the way.
           </p>
+
+          
 
           <div className="social-links">
             {socials.map(({ name, url, icon: Icon }) => (
