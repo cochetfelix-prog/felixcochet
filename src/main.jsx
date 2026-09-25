@@ -4,10 +4,10 @@ import { Instagram, Youtube, Activity, Music2, ArrowUpRight } from "lucide-react
 import "./App.css";
 
 const socials = [
-  { name: "Instagram", url: "https://instagram.com/", icon: Instagram },
-  { name: "TikTok", url: "https://tiktok.com/", icon: Music2 },
-  { name: "YouTube", url: "https://youtube.com/", icon: Youtube },
-  { name: "Strava", url: "https://strava.com/", icon: Activity },
+  { name: "Instagram", url: "https://instagram.com/felixcochet_/", icon: Instagram },
+  { name: "TikTok", url: "https://tiktok.com/@felixcochet_/", icon: Music2 },
+  { name: "YouTube", url: "https://youtube.com/@felixcochet", icon: Youtube },
+  { name: "Strava", url: "https://strava.com/athletes/126521588", icon: Activity },
 ];
 
 function App() {

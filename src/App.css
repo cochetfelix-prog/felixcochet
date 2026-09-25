@@ -111,6 +111,19 @@ h1 span { font-weight: 700; }
   color: #666;
 }
 
+.email-link {
+  margin-top: 18px;
+  font-size: 13px;
+  color: #555;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  transition: color 0.2s ease;
+}
+
+.email-link:hover {
+  color: #111;
+}
+
 .social-links {
   width: 100%;
   margin-top: 42px;
